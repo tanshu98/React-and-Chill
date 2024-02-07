@@ -27,5 +27,5 @@ const anotherReactElement = (
   <a href="https://www.google.com" target='_blank'>Visit google </a>
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
-  myApp()
+  App()
 )
