@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  background-color: lightblue;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.password-form{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 56px; */
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100px;
+  background-color: lightskyblue;
+  color: orangered;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-copy-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input-field{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.copy-btn{
+  cursor: pointer;
+  padding: 11px;
+    outline: none;
+    background-color: lightseagreen;
+    color: #fff;
+    border: transparent;
+}
+.copy-btn:hover{
+  background-color: #96E9C6;
+}
+.password-changer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+label{
+  margin-left: 5px;
+}
+.password-range{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
